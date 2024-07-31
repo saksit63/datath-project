@@ -2,7 +2,7 @@
 
 Technology used: *Python, Pandas, Apache Airflow, Google Cloud Composer, Google Cloud Storage, Google Cloud Bigquery, Looker Studio*
 
-![Data Pipeline Diagram](https://github.com/saksit63/movie-project/blob/main/img/movie_workflow.png)
+![Data Pipeline Diagram](https://github.com/saksit63/datath-project/blob/main/img/workflow.png)
 
 ## Process
  1. นำข้อมูลการซื้อขายสินค้าจากฐานข้อมูล MySQL และข้อมูลการแลกเปลี่ยนเงินตราจาก API ไปยัง Google Cloud Storage (GCS)
@@ -12,9 +12,7 @@ Technology used: *Python, Pandas, Apache Airflow, Google Cloud Composer, Google 
  6. กระบวนการทั้งหมดถูกจัดการด้วย Apache Airflow และ Google Cloud Composer
 
 ## Source code
-DAG file: [movie_project.py](https://github.com/saksit63/movie-project/blob/main/dags/movie_project.py)
-
-PySpark file: [pyspark_script.py](https://github.com/saksit63/movie-project/blob/main/include/python/pyspark_script.py)
+DAG file: [movie_project.py](https://github.com/saksit63/datath-project/blob/main/dags/datath_project.py)
 
 
 ## Result
@@ -24,10 +22,12 @@ Airflow:
 
 Bigquery:
 
-![Bigquery](https://github.com/saksit63/movie-project/blob/main/result/bigquery.png)
+![Bigquery](https://github.com/saksit63/datath-project/blob/main/result/bigquery_datath.png)
 
 Dashbord: 
 
-![Dashboard](https://github.com/saksit63/movie-project/blob/main/result/movie_dashboard.png)
+![Dashboard1](https://github.com/saksit63/datath-project/blob/main/result/dashboard_1.png)
+
+![Dashboard2](https://github.com/saksit63/datath-project/blob/main/result/dashboard_2.png)
 
 
