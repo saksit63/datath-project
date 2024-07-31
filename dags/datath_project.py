@@ -89,6 +89,7 @@ with DAG(
     'project_pipeline_datath',
     default_args=default_args,
     schedule_interval=timedelta(days=1),
+    tags=['project', 'datath']
 ) as dag:
     
 
