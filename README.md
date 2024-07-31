@@ -18,7 +18,7 @@ DAG file: [movie_project.py](https://github.com/saksit63/datath-project/blob/mai
 ## Result
 Airflow:
 
-![Airlofw](https://github.com/saksit63/movie-project/blob/main/result/airflow_dag.png)
+![Airlofw](https://github.com/saksit63/datath-project/blob/main/result/airflow_dag.png)
 
 Bigquery:
 
