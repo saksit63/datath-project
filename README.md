@@ -5,7 +5,7 @@ Technology used: *Python, Pandas, Apache Airflow, Google Cloud Composer, Google 
 ![Data Pipeline Diagram](https://github.com/saksit63/datath-project/blob/main/img/workflow.png)
 
 ## Process
- 1. นำข้อมูลการซื้อขายสินค้าจากฐานข้อมูล MySQL และข้อมูลการแลกเปลี่ยนเงินตราจาก API ไปยัง Google Cloud Storage (GCS)
+ 1. นำข้อมูลการซื้อขายสินค้าจากฐานข้อมูล MySQL และข้อมูลการแลกเปลี่ยนเงินตราจาก API ไปแปลงข้อมูล โดยใช้ pandas จากนั้นจึงนำข้อมูลทั้งสองไปยัง Google Cloud Storage (GCS)
  2. นำข้อมูลทั้งสองไปประมวลผล และ merge ข้อมูลจากทั้งสองที่เข้าด้วยกัน โดยใช้ Pandas
  4. นำข้อมูลที่ประมวลผลแล้วเข้าไปยัง Google Bigquery
  5. สร้าง Dashbord โดยใช้ Looker Studio เพื่อช่วยในการวิเคราะห์ตลาด การวางแผนกลยุทธ์ และการติดตามแนวโน้มการขาย
