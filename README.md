@@ -1,4 +1,4 @@
-# End-to-End Retail ETL Pipeline
+# End-to-End DataTH ETL Pipeline
 
 Technology used: *Python, Pandas, Apache Airflow, Google Cloud Composer, Google Cloud Storage, Google Cloud Bigquery, Looker Studio*
 
