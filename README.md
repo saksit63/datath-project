@@ -12,7 +12,7 @@ Technology used: *Python, Pandas, Apache Airflow, Google Cloud Composer, Google 
  6. กระบวนการทั้งหมดถูกจัดการด้วย Apache Airflow และ Google Cloud Composer
 
 ## Source code
-DAG file: [movie_project.py](https://github.com/saksit63/datath-project/blob/main/dags/datath_project.py)
+DAG file: [datath_project.py](https://github.com/saksit63/datath-project/blob/main/dags/datath_project.py)
 
 
 ## Result
